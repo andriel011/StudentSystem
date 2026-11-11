@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+
+    <img src="img/logo.ico" class="logo" alt="Logo">
+
+    <h1>Dashboard</h1>
+
+    <h2 id="studentCount"></h2>
+    <h2 id="courseCount"></h2>
+    <h2 id="enrollmentCount"></h2>
+
+    <h2>Students</h2>
+
+    <table id="studentsTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Name</th>
+                <th>Email</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Courses</h2>
+
+    <table id="coursesTable">
+        <thead>
+            <tr>
+                <th>ID</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <h2>Enrollments</h2>
+
+    <table id="enrollmentsTable">
+        <thead>
+            <tr>
+                <th>Student</th>
+                <th>Course</th>
+            </tr>
+        </thead>
+        <tbody></tbody>
+    </table>
+
+    <a href="index.html">
+        <button>Back to Home</button>
+    </a>
+</div>
+
+<script src="dashboard.js"></script>
+
+</body>
+</html>
